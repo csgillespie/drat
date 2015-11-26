@@ -1,3 +1,10 @@
+Package: benchmarkme
+Version: 0.1
+Imports: Matrix, compiler, httr
+License: GPL-2 | GPL-3
+MD5sum: 00912a9782e7826b1cbe8528410e4bf2
+NeedsCompilation: no
+
 Package: drat
 Version: 0.0.4
 Suggests: git2r, knitr
