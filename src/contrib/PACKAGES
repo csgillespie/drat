@@ -3,7 +3,7 @@ Version: 0.1
 Imports: Matrix, compiler, httr
 Enhances: RcppZigguart
 License: GPL-2 | GPL-3
-MD5sum: 68642d2445b707b1e19705b7ed65bb68
+MD5sum: ae95d19fa3160ac42a88bbcd10911086
 NeedsCompilation: no
 
 Package: drat
