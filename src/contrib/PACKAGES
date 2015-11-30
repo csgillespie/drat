@@ -3,7 +3,7 @@ Version: 0.1
 Imports: Matrix, compiler, httr
 Suggests: RcppZiggurat, testthat, DT
 License: GPL-2 | GPL-3
-MD5sum: 37bf87baf6faabb998a80fa5c25c1389
+MD5sum: 1b6522c248d2d3a1e0b41808001380e3
 NeedsCompilation: no
 
 Package: drat
