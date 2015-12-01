@@ -1,9 +1,9 @@
 Package: benchmarkme
-Version: 0.1.4
+Version: 0.1.5
 Imports: Matrix, compiler, httr
 Suggests: RcppZiggurat, testthat, DT
 License: GPL-2 | GPL-3
-MD5sum: fe403c2b77d3b5b861345926854a954e
+MD5sum: b26ac12f6712eafbc3cba418cbb58c79
 NeedsCompilation: no
 
 Package: drat
