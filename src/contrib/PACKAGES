@@ -6,6 +6,13 @@ License: GPL-2 | GPL-3
 MD5sum: 3577c3a4f9039b0838390fdd77b84a00
 NeedsCompilation: no
 
+Package: benchmarkmeData
+Version: 0.1.0
+Suggests: testthat
+License: GPL-2 | GPL-3
+MD5sum: e261c18b09e55954b2fce1e6760b4ea4
+NeedsCompilation: no
+
 Package: drat
 Version: 0.0.4.3
 Imports: utils
