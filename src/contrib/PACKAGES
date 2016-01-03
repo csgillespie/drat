@@ -1,9 +1,9 @@
 Package: benchmarkme
-Version: 0.1.8
-Imports: Matrix, compiler, httr, methods
+Version: 0.1.8.9001
+Imports: Matrix, compiler, httr, methods, benchmarkmeData
 Suggests: RcppZiggurat, testthat, DT, knitr
 License: GPL-2 | GPL-3
-MD5sum: 3577c3a4f9039b0838390fdd77b84a00
+MD5sum: 128ee4030d9b0b4db7db248bfcaedaf3
 NeedsCompilation: no
 
 Package: benchmarkmeData
