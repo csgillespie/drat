@@ -8,9 +8,9 @@ NeedsCompilation: no
 
 Package: benchmarkmeData
 Version: 0.1.0
-Suggests: testthat
+Suggests: testthat, DT
 License: GPL-2 | GPL-3
-MD5sum: e261c18b09e55954b2fce1e6760b4ea4
+MD5sum: d63ee15ae8d15bd8c0a2b7854f3677db
 NeedsCompilation: no
 
 Package: drat
