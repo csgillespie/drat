@@ -7,11 +7,11 @@ MD5sum: a0f13a73ea3229cd71e87cc3cc83c010
 NeedsCompilation: no
 
 Package: benchmarkmeData
-Version: 0.1.1
+Version: 0.1.2
 Imports: graphics, utils
 Suggests: testthat, DT
 License: GPL-2 | GPL-3
-MD5sum: a31c53e0ede12e4e644ac8fd371cfe3c
+MD5sum: da787e95de0274a6e53244a25c42ebec
 NeedsCompilation: no
 
 Package: drat
