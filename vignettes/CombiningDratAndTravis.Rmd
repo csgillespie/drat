@@ -1,7 +1,7 @@
 ---
 title: "Combining Drat and Travis CI"
 author: "Colin Gillespie and Dirk Eddelbuettel"
-date: "2015-04-14"
+date: "2016-02-28"
 output: rmarkdown::html_vignette
 vignette: >
   %\VignetteIndexEntry{Combining Drat and Travis CI}
@@ -81,6 +81,7 @@ is found at the end of this vignette and also in the
 ```
 #!/bin/bash
 set -o errexit -o nounset
+PKG_REPO=$PWD
 addToDrat(){
   PKG_REPO=$PWD
 
@@ -99,8 +100,8 @@ addToDrat(){
 
   Rscript -e "drat::insertPackage('$PKG_REPO/$PKG_TARBALL', \
     repodir = '.', \
-    commit='Travis update: build $TRAVIS_BUILD_NUMBER')"
-  git push
+    commit='Travis update $PKG_REPO: build $TRAVIS_BUILD_NUMBER')"
+  git push 2>err.txt
 
 }
 addToDrat
