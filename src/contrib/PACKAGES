@@ -1,7 +1,7 @@
 Package: benchmarkme
 Version: 0.2.2.9000
-Imports: Matrix, compiler, httr, methods, benchmarkmeData(>= 0.2.2), utils,
-        graphics
+Imports: Matrix, compiler, httr, methods, benchmarkmeData(>= 0.2.2),
+        utils, graphics
 Suggests: RcppZiggurat, testthat, DT, knitr, ggplot2, shiny
 License: GPL-2 | GPL-3
 MD5sum: f20aaf5e85fcb995350b44d9f25dea3f
@@ -28,7 +28,7 @@ Version: 0.0.2
 Depends: R (>= 3.1.3)
 Suggests: drat
 License: GPL-2
-MD5sum: e1522ced5fc5cd5ee678e83f2f95dbbd
+MD5sum: df7c5056209edb3518cf21f9acfea17f
 NeedsCompilation: no
 
 Package: nclRexercises
