@@ -1,8 +1,9 @@
 Package: benchmarkme
 Version: 0.2.2.9000
-Imports: Matrix, compiler, httr, methods, benchmarkmeData(>= 0.2.2),
-        utils, graphics
-Suggests: RcppZiggurat, testthat, DT, knitr, ggplot2, shiny
+Imports: Matrix, compiler, httr, methods,
+      benchmarkmeData(>= 0.2.2), utils, graphics
+Suggests: RcppZiggurat, testthat, DT, knitr, ggplot2,
+      shiny
 License: GPL-2 | GPL-3
 MD5sum: f20aaf5e85fcb995350b44d9f25dea3f
 NeedsCompilation: no
@@ -35,5 +36,14 @@ Package: nclRexercises
 Version: 0.1
 License: CC0
 MD5sum: a1f0a40c98e47833bb1b1bfe3fb9a892
+NeedsCompilation: no
+
+Package: nclRmodelling
+Version: 0.5.5
+Depends: R (>= 3.0.0)
+Imports: coin, ggplot2
+Suggests: survival, knitr, shiny
+License: GPL-3 | GPL-2
+MD5sum: a7144614ebea266a6e2520807fae6a77
 NeedsCompilation: no
 
