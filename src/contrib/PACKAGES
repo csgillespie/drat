@@ -1,28 +1,18 @@
 Package: benchmarkme
-<<<<<<< HEAD
-Version: 0.2.2
-Imports: Matrix, compiler, httr, methods, benchmarkmeData, utils,
-        graphics
-=======
 Version: 0.2.2.9000
-Imports: Matrix, compiler, httr, methods, benchmarkmeData(>= 0.2.2),
-        utils, graphics
->>>>>>> c510220f5186696272fb1a884a091c7013fc9d61
+Imports: Matrix, compiler, httr, methods, benchmarkmeData(>= 0.2.2), utils,
+         graphics
 Suggests: RcppZiggurat, testthat, DT, knitr, ggplot2, shiny
 License: GPL-2 | GPL-3
 MD5sum: f20aaf5e85fcb995350b44d9f25dea3f
 NeedsCompilation: no
 
 Package: benchmarkmeData
-Version: 0.4.0
+Version: 0.4.9001
 Imports: graphics, utils,
-Suggests: testthat, DT, shiny, ggplot2, benchmarkme
+Suggests: testthat, DT, benchmarkme
 License: GPL-2 | GPL-3
-<<<<<<< HEAD
-MD5sum: 67779bb27810035aabb3f0d661fff179
-=======
-MD5sum: d050784eb1a85ba1e7f92155efa1a8c0
->>>>>>> c510220f5186696272fb1a884a091c7013fc9d61
+MD5sum: 375331077a8abc15685f56400716357a
 NeedsCompilation: no
 
 Package: drat
